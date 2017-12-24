@@ -12,7 +12,9 @@
 
 ### [CC98 自动签到模块](cc98autocheckin_module.py)
 
-需要配置`conf/cc98.py`：将你的 CC98 Cookie 中 aspsky 的值作为 cookies 数组的一员，写入到 `conf/cc98.py` 后即可运行 `cc98autocheckin_module.py` 啦
+依赖[cc98api](https://github.com/zjuchenyuan/cc98api)
+
+需要配置`conf/cc98.py`：将你的 CC98用户名密码作为accounts数组的一员，写入到 `conf/cc98.py` 后即可运行 `cc98autocheckin_module.py` 啦
 
 预期效果: 签到后推送本次签到获得的 CC98 米和目前拥有的 CC98 米
 
